@@ -1,4 +1,4 @@
-package com.poison.weatherwise.ui.theme
+package com.poison.weatherwise.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

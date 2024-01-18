@@ -1,4 +1,4 @@
-package com.poison.weatherwise.ui.theme
+package com.poison.weatherwise.theme
 
 import android.app.Activity
 import android.os.Build
