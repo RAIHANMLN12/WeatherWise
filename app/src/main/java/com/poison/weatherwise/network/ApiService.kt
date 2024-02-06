@@ -13,12 +13,7 @@ interface ApiService {
         @Query("appid") apikey: String
     ): WeatherResponse
 
-    @GET("weather")
-    suspend fun getWeatherByCurrentLocation(
-        @Query("lat") latitude: Double,
-        @Query("lon") longitude: Double,
-        @Query("appid") apiKey: String
-    ): WeatherResponse
+
 }
 
 object ApiClient {
