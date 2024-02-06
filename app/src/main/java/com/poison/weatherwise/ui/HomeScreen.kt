@@ -97,6 +97,7 @@ fun SearchField(weatherViewModel: WeatherViewModel){
 fun HomeScreen(){
     val weatherViewModel: WeatherViewModel = viewModel()
     val weather by weatherViewModel.weather.observeAsState()
+
     Column(
         modifier = Modifier
             .fillMaxSize()
